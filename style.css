@@ -1,0 +1,80 @@
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #242424;
+    color: #837E9F; 
+    padding: 30px;
+}
+
+#corpotodo{
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+#cabessalho{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#corpo{
+   
+   padding: 20px;
+   margin: 10px;
+}
+
+h1{
+    font-size: 35px;
+    padding: 0;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3{
+    height: 50px;
+    display: block;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    flex-direction: row;
+
+}
+
+a{
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#upgrade{
+    height: 200px;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    width: 150px;
+}
+
+tr:nth-child(even) {
+  background: #242424;
+}
